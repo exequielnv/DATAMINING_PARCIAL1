@@ -1,0 +1,30 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                  Price   R-squared:                       0.818
+Model:                            OLS   Adj. R-squared:                  0.817
+Method:                 Least Squares   F-statistic:                     703.5
+Date:                Tue, 25 Oct 2022   Prob (F-statistic):               0.00
+Time:                        11:35:30   Log-Likelihood:                 788.33
+No. Observations:                 945   AIC:                            -1563.
+Df Residuals:                     938   BIC:                            -1529.
+Df Model:                           6                                         
+Covariance Type:            nonrobust                                         
+===================================================================================
+                      coef    std err          t      P>|t|      [0.025      0.975]
+-----------------------------------------------------------------------------------
+const               8.9999      0.017    530.795      0.000       8.967       9.033
+Mfg_Year            0.7321      0.019     38.211      0.000       0.695       0.770
+KM                 -0.4169      0.030    -13.975      0.000      -0.475      -0.358
+Automatic_airco     0.1023      0.024      4.339      0.000       0.056       0.149
+Airco               0.0571      0.008      7.432      0.000       0.042       0.072
+Quarterly_Tax       0.1899      0.023      8.301      0.000       0.145       0.235
+HP                  0.0769      0.015      5.210      0.000       0.048       0.106
+==============================================================================
+Omnibus:                       48.874   Durbin-Watson:                   2.178
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              116.365
+Skew:                          -0.274   Prob(JB):                     5.39e-26
+Kurtosis:                       4.629   Cond. No.                         14.4
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.

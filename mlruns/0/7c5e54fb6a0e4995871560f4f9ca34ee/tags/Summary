@@ -1,0 +1,32 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                  Price   R-squared:                       0.842
+Model:                            OLS   Adj. R-squared:                  0.841
+Method:                 Least Squares   F-statistic:                     635.8
+Date:                Tue, 25 Oct 2022   Prob (F-statistic):               0.00
+Time:                        00:48:01   Log-Likelihood:                 820.23
+No. Observations:                 960   AIC:                            -1622.
+Df Residuals:                     951   BIC:                            -1579.
+Df Model:                           8                                         
+Covariance Type:            nonrobust                                         
+===================================================================================
+                      coef    std err          t      P>|t|      [0.025      0.975]
+-----------------------------------------------------------------------------------
+const               8.9729      0.018    509.591      0.000       8.938       9.007
+Mfg_Year            0.7287      0.019     39.014      0.000       0.692       0.765
+KM                 -0.4317      0.029    -14.923      0.000      -0.489      -0.375
+Automatic_airco     0.1264      0.020      6.190      0.000       0.086       0.167
+Airco               0.0548      0.008      7.276      0.000       0.040       0.070
+Quarterly_Tax       0.1720      0.022      7.672      0.000       0.128       0.216
+HP                  0.0689      0.015      4.590      0.000       0.039       0.098
+Doors               0.0462      0.011      4.261      0.000       0.025       0.067
+Mfr_Guarantee       0.0367      0.007      5.211      0.000       0.023       0.051
+==============================================================================
+Omnibus:                       23.087   Durbin-Watson:                   1.870
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               48.197
+Skew:                           0.033   Prob(JB):                     3.42e-11
+Kurtosis:                       4.096   Cond. No.                         16.7
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
